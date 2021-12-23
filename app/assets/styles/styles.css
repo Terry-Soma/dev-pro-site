@@ -1,10 +1,5 @@
-$main: #2f5572;
-$orange: orange;
-.large-hero {
-  h2 {
-    color: #2f5572;
-  }
-}
-body {
-  color: $orange;
-}
+@import 'normalize.css';
+@import './base/_variables';
+@import './base/_global';
+@import './modules/_large-hero';
+@import './modules/_btn';
