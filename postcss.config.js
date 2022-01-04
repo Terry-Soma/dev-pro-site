@@ -4,5 +4,6 @@ module.exports = {
     require('postcss-nested'),
     require('autoprefixer'),
     require('postcss-import'),
+    require('postcss-mixins'),
   ],
 };
