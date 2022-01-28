@@ -1,0 +1,44 @@
+.row {
+  @mixin clearfix;
+  &--gutters {
+    margin-right: -64px;
+  }
+  &--gutters > div {
+    padding-right: 64px;
+  }
+
+  &--gutters--large {
+    margin-right: -120px;
+  }
+  &--gutters--large > div {
+    padding-right: 120px;
+  }
+
+  &__b-margin-until-medium {
+    margin-bottom: 1rem;
+  }
+  @mixin atMedium {
+    &__b-margin-until-medium {
+      margin-bottom: 0;
+    }
+    &__medium-4 {
+      float: left;
+      width: 33.33%;
+    }
+
+    &__medium-4--larger {
+      width: 38%;
+    }
+    &__medium-6 {
+      float: left;
+      width: 50%;
+    }
+    &__medium-8 {
+      float: right;
+      width: 66.66%;
+    }
+    &__medium-8--smaller {
+      width: 62%;
+    }
+  }
+}
