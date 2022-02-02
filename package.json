@@ -1,7 +1,7 @@
 {
   "name": "platinum-travel-site",
   "version": "1.0.0",
-  "description": "front-end web development",
+  "description": "1234.mn front-end web development",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/onlinevideotraining1234/platinum-travel-site-files.git"
   },
-  "author": "Номч Эр",
+  "author": "1234.mn Training",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/onlinevideotraining1234/platinum-travel-site-files/issues"
@@ -23,6 +23,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "css-loader": "^6.5.1",
+    "postcss-hexrgba": "^2.0.1",
     "postcss-import": "^14.0.2",
     "postcss-loader": "^6.2.1",
     "postcss-mixins": "^9.0.1",
